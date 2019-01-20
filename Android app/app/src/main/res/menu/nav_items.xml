@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/newsMenu"
+        android:icon="@drawable/ic_world"
+        android:title="News" />
+
+    <item
+        android:id="@+id/reportingMenu"
+        android:icon="@drawable/ic_flag_black_24dp"
+        android:visible="true"
+        android:title="Reporting" />
+
+    <item
+        android:id="@+id/videosMenu"
+        android:icon="@drawable/ic_play_arrow_black_24dp"
+        android:title="Video" />
+
+    <item
+        android:id="@+id/favoriteMenu"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="Favorites" />
+
+    <item
+        android:id="@+id/accountMenu"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Account" />
+</menu>
